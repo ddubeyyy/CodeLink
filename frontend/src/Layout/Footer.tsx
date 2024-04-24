@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                 </Box>
 
-                <List
+<List
                     margin="auto"
                     marginTop="0.75rem"
                     width="90%"
