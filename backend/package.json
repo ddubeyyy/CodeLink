@@ -1,10 +1,10 @@
 {
-  "name": "dev-house",
+  "name": "codelink",
   "version": "1.0.0",
   "description": "A code editor and podcast studio for developers",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [
@@ -19,14 +19,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1SAURABHKUMAR1/Dev-House.git"
+    "url": "git+https://github.com/ddubeyyy/CodeLink.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/1SAURABHKUMAR1/Dev-House/issues"
+    "url": "https://github.com/ddubeyyy/CodeLink/issues"
   },
-  "homepage": "https://github.com/1SAURABHKUMAR1/Dev-House#readme",
+  "homepage": "https://github.com/ddubeyyy/CodeLink#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.30.0",
