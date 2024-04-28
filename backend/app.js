@@ -1,4 +1,6 @@
 require('dotenv').config();
+const mongoose = require('mongoose');
+mongoose.connect(process.env.MONGODB_URL)
 const express = require('express');
 const app = express();
 const cookieParser = require('cookie-parser');

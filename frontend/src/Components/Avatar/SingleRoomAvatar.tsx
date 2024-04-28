@@ -62,8 +62,7 @@ const SingleRoomAvatar = ({
                     ref={(refInstance) => addAudioRef(userId, refInstance)}
                     autoPlay
                 ></audio>
-                <Text
-                    fontSize="0.85rem"
+                <Text fontSize="0.85rem"
                     fontWeight="600"
                     className="tracking-overflow"
                     maxW="5.5rem"

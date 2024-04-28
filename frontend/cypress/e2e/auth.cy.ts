@@ -10,11 +10,11 @@ describe('Authenticate', () => {
         cy.findByTestId('welcome-card').should('exist');
         cy.findByTestId('welcome-card').should(
             'contain',
-            `Welcome to Devhouse!`,
+            `Welcome to CodeLink!`,
         );
         cy.findByTestId('welcome-card').should(
             'contain',
-            `Devhouse i nearly ready and some more features are adding in. Enjoy`,
+            `CodeLink is nearly ready and some more features are adding in. Enjoy`,
         );
         cy.findByTestId('welcome-card')
             .find('button')
