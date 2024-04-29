@@ -44,7 +44,7 @@
     "mongoose": "^6.12.8",
     "morgan": "^1.10.0",
     "nanoid": "^3.3.4",
-    "nodemailer": "^6.7.5",
+    "nodemailer": "^6.9.13",
     "python-shell": "^3.0.1",
     "qrcode": "^1.5.0",
     "socket.io": "^4.5.1",
